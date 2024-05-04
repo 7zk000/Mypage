@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { Home, About, Contact } from './components';
+import { Home, About, Contact } from '../components';
 import './App.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
