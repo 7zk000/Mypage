@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <div className="header">
-        <div className="container">
+        {/*<div className="container">
           <nav>
             <ul>
               <li><Link to="/">Home</Link></li>
@@ -16,7 +16,7 @@ function App() {
               <li><Link to="/contact">Contact</Link></li>
             </ul>
           </nav>
-        </div>
+        </div>*/}
       </div>
 
       <Routes>
@@ -24,7 +24,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </Router>
+      </Router>
   );
 }
 

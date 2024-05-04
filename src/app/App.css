@@ -1,16 +1,43 @@
-.header {
-  background-color: yellow;
-  padding: 5px;
-  text-align: right;
-  font-size: 20px;
-}
-
-.container ul {
+.flex-center{
   display: flex;
-  list-style: none;
-  padding: 0;
+  justify-content: center;
+  align-items: center;
 }
 
-.container ul li {
-  margin-right: 10px;
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #37474F;
+  color: #fff;
+}
+
+.home h1{
+  flex-direction: row;
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #fff;
+}
+
+.logo{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.about-contents{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.copyright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
 }
