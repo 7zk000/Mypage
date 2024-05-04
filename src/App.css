@@ -1,0 +1,16 @@
+.header {
+  background-color: yellow;
+  padding: 5px;
+  text-align: right;
+  font-size: 20px;
+}
+
+.container ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.container ul li {
+  margin-right: 10px;
+}
