@@ -1,6 +1,4 @@
 import React from 'react';
-import GitHubRepoInfo from './myinfo';
-import Mytoken from './mytoken';
 
 function About() {
   return (
