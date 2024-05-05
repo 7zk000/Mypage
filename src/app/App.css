@@ -69,3 +69,10 @@
   margin: 30px auto;
   width: 100%;
 }
+
+.ProfileViews{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
