@@ -28,8 +28,9 @@
   height: 200px;
   border-radius: 50%;
   background-color: #fff;
-  margin-bottom: 30px;
+  align-self: center;
 }
+
 .contact-icons {
   display: flex;
   justify-content: center;
