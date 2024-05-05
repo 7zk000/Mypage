@@ -10,22 +10,39 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #37474F;
   color: #fff;
+  background-color: #37474F;
+  width: 100%;
 }
 
 .home h1{
-  flex-direction: row;
+  margin-top: 50px;
   margin-bottom: 30px;
   font-size: 2em;
   color: #fff;
 }
 
-.logo{
-  width: 300px;
-  height: 300px;
+.logo {
+  position: relative;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   background-color: #fff;
+  margin-bottom: 30px;
+}
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.contact-icons.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .about-contents{
@@ -33,6 +50,15 @@
   justify-content: center;
   align-items: center;
   margin: 30px auto;
+  width: 100%;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .copyright{
@@ -40,4 +66,5 @@
   justify-content: center;
   align-items: center;
   margin: 30px auto;
+  width: 100%;
 }
