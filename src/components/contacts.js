@@ -9,7 +9,7 @@ function ContactComponent() {
         Contact
       </button>
       <div className={`contact-icons ${showContacts ? 'show' : ''}`}>
-        <a href="https://github.com/B49HACK" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/7zk000" target="_blank" rel="noopener noreferrer">
           <i className="bi bi-github">github</i>
         </a>
         <a href="https://instagram.com/7zk.me" target="_blank" rel="noopener noreferrer">
